@@ -4,3 +4,4 @@ print("Lista zakupów")
 for sklep, produkty in zakupy.items():
     print("Idę do,", (sklep.capitalize()), "kupuję tu następujące rzeczy:", [i.title() for i in produkty])
 print("W sumie kupuję", ((sum([len(zakupy[x]) for x in zakupy if isinstance(zakupy[x], list)]))), "produktów.")
+print("zmainy, próby w git-cie)
